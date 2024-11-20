@@ -1,9 +1,16 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-
+---
+title: Normandie Ai Website
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: ''
+baseurl: ''
 plugins:
-  - jekyll-postcss
-
+- jekyll-postcss
 postcss:
   cache: false
